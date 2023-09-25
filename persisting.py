@@ -1,9 +1,8 @@
 from models import User,Comment
 from main import session
 
-
-
-
+# adding data/record into database
+# create object as a record
 
 user1 = User(
     username = 'jona',
@@ -28,7 +27,6 @@ cathy = User(
     email_address = "cathy@sql.irg",
 )
 
-
+# like git add, commit, push
 session.add_all([user1,paul,cathy])
-
 session.commit()

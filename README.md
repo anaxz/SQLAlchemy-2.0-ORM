@@ -9,3 +9,8 @@ pip install -r requirements.txt
 ```
 python <name of file>.py
 ```
+
+Vid: 
+https://www.youtube.com/watch?v=XWtj4zLl_tg
+
+python create_tables.py to create db
